@@ -69,7 +69,9 @@ description: >
 - **Radar**: Garmin Digital HD GMR18HD
 - **GPS**: GPS24x-NMEA2000
 - **Autopilot**: GHC10 head unit, Garmin GHP12 control unit, Lewmar linear drive unit
-- **Instruments**: ST60+ wind/depth/speed instruments, connected to NMEA 2000 by Shipmodul MiniPlex-3Wi-N2K
+- **Instruments**: ST60+ wind/depth/speed instruments, connected to NMEA 2000 by ShipModul MiniPlex-3Wi-N2K
+- **Bus**: NMEA 2000 bus from port-side saloon to across rear bulkhead. NMEA 0183 only for plotter to/from Raymarine VHF. Originally with a Raymarine E85001 box to interface ST60+ instruments to plotter via NMEA0183, now replaced with ShipModul interface.
+- **Internet**: Starlink Mini, mounted as needed
 
 ## Rigging
 - **Foresail**: Selden Furlex 200S roller reefing
