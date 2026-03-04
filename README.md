@@ -14,10 +14,4 @@ Drag `my-boat.skill` into Claude.ai → Settings → Skills.
 
 ### Edit
 
-Edit `my-boat/SKILL.md` directly, then repackage:
-
-```bash
-python -m scripts.package_skill ./my-boat ./ 
-```
-
-(Requires the skill-creator scripts from Claude Code / Cowork.)
+Edit `my-boat/SKILL.md` directly, then wait for Github Actions to automatically repackage, the download skill from GitHub and re-install in Claude
