@@ -10,6 +10,8 @@ Reference profile for the Bavaria Cruiser 36 (2011) — vessel details, engine s
 
 Drag `my-boat.skill` into Claude.ai → Settings → Skills.
 
+![Claude Upload Skill](claude_upload_skill.png)
+
 ### Edit
 
 Edit `my-boat/SKILL.md` directly, then repackage:
