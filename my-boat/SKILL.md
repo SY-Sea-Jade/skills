@@ -41,19 +41,21 @@ description: >
 - **Saildrive**: MS130 saildrive unit (key galvanic corrosion risk area — see below)
 - **Raw water cooling**: seawater pump drives impeller; check/replace impeller annually or every 200 hrs
 - **Heat exchanger**: freshwater-cooled block with raw water exchanger
-- **Fuel system**: Racor or equivalent pre-filter + engine-mounted secondary filter; bleed sequence: secondary filter → fuel pump → injectors
+- **Fuel system**: Racor 500 primary fuel filter + engine-mounted secondary filter; bleed sequence: secondary filter → fuel pump → injectors
 - **Oil**: 15W-40 marine diesel, sump ~3.5 L; change every 100–150 hrs or annually
+- **Propeller**: 2-blade, fixed alloy prop, fitter 2022
 - **Belts**: single serpentine-style belt drives alternator and raw water pump; check tension and cracking annually
 - **Zincs**: saildrive anode (aluminium collar + propeller anode) — inspect every haul-out, replace if >50% consumed
 - **Common faults**: injector seal weeping (smell of diesel in bilge), raw water impeller failure (rising temp alarm), air in fuel after filter change (requires bleed)
 
 ## Electrical & Battery
 
-- **Charging**: high output replacement engine alternator
+- **Charging**: high output 110A replacement engine alternator, Victron ARGOFET battery isolator, 3 output, 100A, fitted 2024
 - **Solar Panels** 2 Victron 140w solid panels with Victron MPPT 100/20 charger
 - **Battery bank**: 3@ Exide EP1200 AGM house bank, 1 @ Banner 105Ah start battery + 1 95Ah bow thruster battery
 - **Monitoring**: Renogy shunts and battery monitors for house and starter
 - **Shore power**: 230 V shore power (standard BC36 fit)
+- **Battery Charger**: Quick SBC NRG 230VAC – 12VDC, 45amp
 - **Bow thruster**: electric, fitted (Sleipner Sidepower SE60/185S); has dedicated thruster battery; brushes and seals require inspection at haul-out
 
 ## Navigation & Electronics
@@ -62,10 +64,17 @@ description: >
   - Chart source: Navionics or Imray charts; Antares charts for Scottish waters (you've worked on loading these)
 - **AIS**: transponder fitted (Class B - Garmin AIS600 transceive); connect to chartplotter via NMEA for target overlay
 - **VHF**: Raymarine 55E, MMSI 235094115
-- **Radar**: Garmin Digital HD GMR18HD 
+- **Radar**: Garmin Digital HD GMR18HD
+- **GPS**: GPS24x-NMEA2000
 - **Autopilot**: GHC10 head unit, Garmin GHP12 control unit, Lewmar linear drive unit
 - **Instruments**: ST60+ wind/depth/speed instruments, connected to NMEA 2000 by Shipmodul MiniPlex-3Wi-N2K
 
+## Rigging
+- **Foresail**: Selden Furlex 200S roller reefing
+- **Mainsail**: Fully battened, slab reefing Dacron, mid-boom mainsheet with German system, gas rod kicker, lazyjacks and stackpack
+- **Stays**: Block and tackle back stay adjuster
+- **Pole**: Telescopic whisker pole
+- 
 ## Sailing Area
 
 - **Primary**: Scottish west coast and Hebrides — Firth of Clyde, Kintyre, Islay, Jura, Colonsay, Mull, Ardnamurchan, Small Isles, Outer Hebrides
