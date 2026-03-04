@@ -1,8 +1,8 @@
 ---
 name: my-boat
 description: >
-  Reference profile for Jey's Bavaria Cruiser 36 (Farr, 2011). Use this skill proactively
-  whenever Jey asks about sailing, seamanship, navigation, anchoring, passage planning,
+  Reference profile for my Bavaria Cruiser 36 (Farr, 2011). Use this skill proactively
+  whenever asked about sailing, seamanship, navigation, anchoring, passage planning,
   boat maintenance, engine servicing, electrical systems, antifouling, rigging, safety
   equipment, provisioning, Scottish waters, or anything boat-related — even if the
   question seems generic. Always tailor advice to this specific vessel, her systems,
@@ -12,7 +12,7 @@ description: >
   Garmin, AIS, Clyde, Hebrides, Scotland, west coast, corrosion, zinc, anode.
 ---
 
-# Jey's Boat — Bavaria Cruiser 36 (2011)
+# My Boat — Bavaria Cruiser 36 (2011)
 
 ## Vessel Summary
 
@@ -96,7 +96,7 @@ description: >
 ### General Maintenance Priorities
 - **Antifouling**: annual haul-out typical for Scottish waters (heavy fouling season); use hard antifoul suitable for Clyde/west coast. International Cruiser 250 on hull and International Trilux on propeller, saildrive leg and bow thruster blades
 - **Seacocks**: grease and exercise all seacocks annually; DZR replaced in 2015
-- **Rigging**: inspect standing rigging (swageless or swaged terminals) annually; check furler bearings and foil joints; in-mast furling motor (if electric) or manual operation
+- **Rigging**: inspect standing rigging (swageless or swaged terminals) annually; check furler bearings and foil joints; in-mast furling manual drum
 - **Sails**: UV strip on furling headsail; in-mast mainsail — check sail slug condition and furling drum
 - **Bilge**: Seaflow automatic bilge pump and manual bilge pump
 
@@ -108,4 +108,4 @@ When giving advice for this boat:
 - **Engine servicing**: reference D1-30F specifics, not generic diesel advice
 - **Galvanic corrosion**: flag any advice that touches shore power, metal underwater fittings, or marina berths
 - **Charts/navigation**: Garmin GPSMAP 4010 is the primary plotter; advice should be compatible with that unit's capabilities and age
-- **Anchoring**: Jey has interest in remote Hebridean anchorages — consider holding ground, swell exposure, and emergency egress
+- **Anchoring**: Interested in Hebridean anchorages — consider holding ground, swell exposure, and emergency egress
