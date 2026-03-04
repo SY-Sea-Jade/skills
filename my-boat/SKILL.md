@@ -9,7 +9,7 @@ description: >
   and the waters she sails. Trigger on keywords: boat, sail, engine, anchor, marina,
   passage, tidal, VHF, chart, foul, keel, antifoul, chandlery, bilge, diesel, mast,
   furler, winch, halyard, sheet, preventer, reefing, Bavaria, Volvo, D1-30, bow thruster,
-  Garmin, AIS, Clyde, Hebrides, Mingulay, Scotland, west coast, corrosion, zinc, anode.
+  Garmin, AIS, Clyde, Hebrides, Scotland, west coast, corrosion, zinc, anode.
 ---
 
 # Jey's Boat — Bavaria Cruiser 36 (2011)
@@ -19,18 +19,26 @@ description: >
 | Field | Detail |
 |---|---|
 | Make / Model | Bavaria Cruiser 36 |
-| Year | 2011 |
-| LOA | ~11.0 m (36 ft) |
-| Beam | ~3.7 m |
-| Draft | ~1.9 m (fin keel) |
-| Displacement | ~6,200 kg |
+| Year Built | 2011 |
+| Launched | June 2012 |
+| LOA | 11.3 m |
+| LWL | 9.9 m |
+| Beam | 3.67 m |
+| Draft | 1.97 m (fin keel) |
+| Ballast | 2080 kg |
+| Displacement | 7000 kg |
 | Hull | GRP (white topsides) |
+| Diesel Tank | 151 l |
+| Water Tanks | 208 l and 150 l |
+| Anchor | Rocna Mk1 15 kg |
+| Swim Platform | Hinged at transom, 450kg max load |
 | Rig | Fractional sloop, furling headsail, in-mast furling mainsail (standard BC36 fit) |
+| Sailboat Data | https://sailboatdata.com/sailboat/bavaria-cruiser-36-farr/ |
 
 ## Engine — Volvo Penta D1-30F
 
 - **Type**: 3-cylinder, 4-stroke diesel, 28–30 hp
-- **Saildrive**: SD40 saildrive unit (key galvanic corrosion risk area — see below)
+- **Saildrive**: MS130 saildrive unit (key galvanic corrosion risk area — see below)
 - **Raw water cooling**: seawater pump drives impeller; check/replace impeller annually or every 200 hrs
 - **Heat exchanger**: freshwater-cooled block with raw water exchanger
 - **Fuel system**: Racor or equivalent pre-filter + engine-mounted secondary filter; bleed sequence: secondary filter → fuel pump → injectors
@@ -41,25 +49,26 @@ description: >
 
 ## Electrical & Battery
 
-- **Charging**: engine alternator + **solar panels** (size unknown — add if known)
-- **Battery bank**: house bank + start battery (configuration unknown — add if known)
-- **Monitoring**: add details of any battery monitor (Victron BMV etc. if fitted)
+- **Charging**: high output replacement engine alternator
+- **Solar Panels** 2 Victron 140w solid panels with Victron MPPT 100/20 charger
+- **Battery bank**: 3@ Exide EP1200 AGM house bank, 1 @ Banner 105Ah start battery + 1 95Ah bow thruster battery
+- **Monitoring**: Renogy shunts and battery monitors for house and starter
 - **Shore power**: 230 V shore power (standard BC36 fit)
-- **Bow thruster**: electric, fitted (brand/model unknown — add if known); has dedicated thruster battery or draws from house bank — confirm; brushes and seals require inspection at haul-out
+- **Bow thruster**: electric, fitted (Sleipner Sidepower SE60/185S); has dedicated thruster battery; brushes and seals require inspection at haul-out
 
 ## Navigation & Electronics
 
 - **Chartplotter**: Garmin GPSMAP 4010 (10.4" colour, older unit)
   - Chart source: Navionics or Imray charts; Antares charts for Scottish waters (you've worked on loading these)
-  - No built-in AIS display unless connected via NMEA 0183 to AIS transponder
-- **AIS**: transponder fitted (Class B assumed — confirm brand/model); connect to chartplotter via NMEA for target overlay
-- **VHF**: assumed fitted (confirm if DSC-enabled and MMSI registered — required for Scottish passages)
-- **Instruments**: standard BC36 wind/depth/speed instruments (confirm if networked via NMEA 2000)
-- **Compass**: bulkhead-mounted (confirm if adjusted for Scottish deviation)
+- **AIS**: transponder fitted (Class B - Garmin AIS600 transceive); connect to chartplotter via NMEA for target overlay
+- **VHF**: Raymarine 55E, MMSI 235094115
+- **Radar**: Garmin Digital HD GMR18HD 
+- **Autopilot**: GHC10 head unit, Garmin GHP12 control unit, Lewmar linear drive unit
+- **Instruments**: ST60+ wind/depth/speed instruments, connected to NMEA 2000 by Shipmodul MiniPlex-3Wi-N2K
 
 ## Sailing Area
 
-- **Primary**: Scottish west coast and Hebrides — Firth of Clyde, Kintyre, Islay, Jura, Colonsay, Mull, Ardnamurchan, Small Isles, Outer Hebrides including **Mingulay** (known anchorage interest)
+- **Primary**: Scottish west coast and Hebrides — Firth of Clyde, Kintyre, Islay, Jura, Colonsay, Mull, Ardnamurchan, Small Isles, Outer Hebrides
 - **General**: coastal cruising, not offshore/ocean passages
 - **Tidal considerations**: significant tidal streams in Scottish waters — Sound of Luing, Dorus Mòr, Corryvreckan vicinity, Kyle of Lochalsh; always consult Reeds Almanac or CCC Sailing Directions
 - **Weather**: Atlantic depressions move through quickly; forecasts from Met Office Inshore Waters, Windy, or PredictWind; VHF weather broadcasts on ch 23/84 from Coastguard
@@ -73,18 +82,18 @@ description: >
 - At haul-out: inspect saildrive carefully before antifouling; photograph baseline
 
 ### General Maintenance Priorities
-- **Antifouling**: annual haul-out typical for Scottish waters (heavy fouling season); use hard antifoul suitable for Clyde/west coast
-- **Seacocks**: grease and exercise all seacocks annually; check for dezincification on bronze fittings
+- **Antifouling**: annual haul-out typical for Scottish waters (heavy fouling season); use hard antifoul suitable for Clyde/west coast. International Cruiser 250 on hull and International Trilux on propeller, saildrive leg and bow thruster blades
+- **Seacocks**: grease and exercise all seacocks annually; DZR replaced in 2015
 - **Rigging**: inspect standing rigging (swageless or swaged terminals) annually; check furler bearings and foil joints; in-mast furling motor (if electric) or manual operation
 - **Sails**: UV strip on furling headsail; in-mast mainsail — check sail slug condition and furling drum
-- **Bilge**: check bilge pump operation and float switch before each season
+- **Bilge**: Seaflow automatic bilge pump and manual bilge pump
 
 ## Advice Defaults
 
 When giving advice for this boat:
 - **Assume Scottish tidal waters** unless stated otherwise — always flag tidal stream hazards
-- **Assume a shorthanded crew** (skipper + 1–2, sometimes solo) — prefer conservative sail plans, easy reefing, roller furling use
+- **Assume a shorthanded crew** (skipper + wife) — prefer conservative sail plans, easy reefing, roller furling use
 - **Engine servicing**: reference D1-30F specifics, not generic diesel advice
 - **Galvanic corrosion**: flag any advice that touches shore power, metal underwater fittings, or marina berths
 - **Charts/navigation**: Garmin GPSMAP 4010 is the primary plotter; advice should be compatible with that unit's capabilities and age
-- **Anchoring**: Jey has interest in remote Hebridean anchorages (Mingulay etc.) — consider holding ground, swell exposure, and emergency egress
+- **Anchoring**: Jey has interest in remote Hebridean anchorages — consider holding ground, swell exposure, and emergency egress
