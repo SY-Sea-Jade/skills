@@ -1,0 +1,43 @@
+name: Package Skills
+
+on:
+  push:
+    paths:
+      - '*/SKILL.md'
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Package changed skills
+        run: |
+          python - << 'PYEOF'
+          import zipfile, sys
+          from pathlib import Path
+
+          changed = [
+              p for p in Path(".").iterdir()
+              if p.is_dir() and (p / "SKILL.md").exists() and not p.name.startswith(".")
+          ]
+
+          for skill_dir in changed:
+              out = Path(f"{skill_dir.name}.skill")
+              with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
+                  for f in skill_dir.rglob("*"):
+                      if f.is_file() and "__pycache__" not in f.parts:
+                          zf.write(f, f.relative_to(skill_dir.parent))
+              print(f"Packaged {out}")
+          PYEOF
+
+      - name: Commit updated .skill files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add '*.skill'
+          git diff --cached --quiet || git commit -m "chore: repackage skill files [skip ci]"
+          git push
