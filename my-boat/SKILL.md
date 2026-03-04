@@ -20,7 +20,9 @@ description: >
 |---|---|
 | Make / Model | Bavaria Cruiser 36 |
 | Year Built | 2011 |
+| Designer | Bruce Farr |
 | Launched | June 2012 |
+| Home Base | Largs Yacht Haven |
 | LOA | 11.3 m |
 | LWL | 9.9 m |
 | Beam | 3.67 m |
@@ -74,7 +76,8 @@ description: >
 - **Mainsail**: Fully battened, slab reefing Dacron, mid-boom mainsheet with German system, gas rod kicker, lazyjacks and stackpack
 - **Stays**: Block and tackle back stay adjuster
 - **Pole**: Telescopic whisker pole
-- 
+- **Rudder**: Spade, Jefa, rebuilt June 2026
+
 ## Sailing Area
 
 - **Primary**: Scottish west coast and Hebrides — Firth of Clyde, Kintyre, Islay, Jura, Colonsay, Mull, Ardnamurchan, Small Isles, Outer Hebrides
