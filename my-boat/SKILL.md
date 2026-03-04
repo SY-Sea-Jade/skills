@@ -1,7 +1,7 @@
 ---
 name: my-boat
 description: >
-  Reference profile for Jey's Bavaria Cruiser 36 (2011). Use this skill proactively
+  Reference profile for Jey's Bavaria Cruiser 36 (Farr, 2011). Use this skill proactively
   whenever Jey asks about sailing, seamanship, navigation, anchoring, passage planning,
   boat maintenance, engine servicing, electrical systems, antifouling, rigging, safety
   equipment, provisioning, Scottish waters, or anything boat-related — even if the
@@ -26,7 +26,7 @@ description: >
 | Beam | 3.67 m |
 | Draft | 1.97 m (fin keel) |
 | Ballast | 2080 kg |
-| Displacement | 7000 kg |
+| Displacement | 7000 kg, cast iron keel |
 | Hull | GRP (white topsides) |
 | Diesel Tank | 151 l |
 | Water Tanks | 208 l and 150 l |
@@ -37,7 +37,7 @@ description: >
 
 ## Engine — Volvo Penta D1-30F
 
-- **Type**: 3-cylinder, 4-stroke diesel, 28–30 hp
+- **Type**: 3-cylinder, 4-stroke diesel, 28 hp
 - **Saildrive**: MS130 saildrive unit (key galvanic corrosion risk area — see below)
 - **Raw water cooling**: seawater pump drives impeller; check/replace impeller annually or every 200 hrs
 - **Heat exchanger**: freshwater-cooled block with raw water exchanger
@@ -56,12 +56,12 @@ description: >
 - **Monitoring**: Renogy shunts and battery monitors for house and starter
 - **Shore power**: 230 V shore power (standard BC36 fit)
 - **Battery Charger**: Quick SBC NRG 230VAC – 12VDC, 45amp
-- **Bow thruster**: electric, fitted (Sleipner Sidepower SE60/185S); has dedicated thruster battery; brushes and seals require inspection at haul-out
+- **Bow thruster**: Sleipner Sidepower SE60/185S); dedicated thruster battery; brushes and seals require inspection at haul-out
 
 ## Navigation & Electronics
 
 - **Chartplotter**: Garmin GPSMAP 4010 (10.4" colour, older unit)
-  - Chart source: Navionics or Imray charts; Antares charts for Scottish waters (you've worked on loading these)
+  - Chart source: VEU706L UK-Ireland-The Netherlands v2021 v22.00
 - **AIS**: transponder fitted (Class B - Garmin AIS600 transceive); connect to chartplotter via NMEA for target overlay
 - **VHF**: Raymarine 55E, MMSI 235094115
 - **Radar**: Garmin Digital HD GMR18HD
